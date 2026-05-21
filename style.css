@@ -1,0 +1,295 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: red;
+}
+#Container {
+    height:80px;
+    display: flex;
+}
+
+#box1 {
+    padding-left: 40px;
+    width: 350px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+#d2 {
+    height: 80px;
+    width: 500px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+button {
+    background: none;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+button:hover{
+    background-color: orangered;
+}
+
+
+ i:hover {
+    background-color: red;
+ }
+
+
+ #d3 {
+    height: 80px;
+    width: 636px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 80px;
+}
+
+.fa-solid {
+    padding-right: 40px;
+}
+
+#d4 {
+    height: 550px;
+    background-image: url("image1.avif");
+    background-size: cover;
+    text-align: center;
+}
+
+
+#h1 {
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    font-size: largest;
+}
+#p1 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    
+}
+#b1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+}
+#b1:hover {
+    background-color: orangered;
+
+}
+#space {
+    height: 50px;
+}
+#v1 {
+    height: 500px;
+    display:flex;
+
+}
+
+#v1a {
+    height: 500px;
+    background-color: rgba(128, 128, 128, 0.092);
+    width: 650px;
+}
+ #v1aa {
+    width: 650px;
+    height: 180px;
+    text-align: center;
+    padding-top: 50px;
+ }
+
+ #h1a , #h1b {
+    color:rgba(85, 2, 162, 0.526)
+ }
+
+#v1ab {
+    height: 200px;
+    width: 650px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#v1abb {
+    height: 280px;
+    width: 325px;
+    text-align: center;
+    padding-top: 50px;
+    display: inline-block;
+}
+
+#v1abc {
+    width:325px;
+    height: 280px;
+    text-align: center;
+    padding-top: 50px;
+    display: inline-block;
+
+}
+#v1abd {
+    text-align: center;
+}
+
+#b3 {
+    background-color: black;
+    color: white;
+    width: 105px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+#b3:hover {
+    background-color: red;
+}
+
+#v2 {
+    height: 500px;
+    width: 750px;
+    padding-left: 50px;
+    background-color: rgba(128, 128, 128, 0.092);;
+
+
+}
+
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    gap:20px;
+
+}
+.slide {
+    min-width: 80%;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#space1 {
+    height: 50px;
+}
+
+#details {
+    height: 270px;
+    display: flex;
+}
+#Currentoffers {
+    width: 500px;
+    height: 270px;
+    background-color: rgba(128, 128, 128, 0.085);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#Co1 , #Co2 , #Co3 {
+    margin-left:25px;
+}
+
+#Co3 {
+    background-color: rgba(0, 0, 255, 0.696);
+    width: 150px;
+    margin-top: 25px;
+}
+
+#Co3:hover {
+    background-color: red;
+}
+
+#img1 {
+    background-color:rgba(128,128,128,0.085);
+    width: 230px;
+    height: 270px;
+}
+
+#Inventory {
+    width: 500px;
+    height: 270px;
+    background-color: rgba(128, 128, 128, 0.085);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+#i1, #i2{
+    margin-left: 25px;
+}
+
+#b1 {
+    height: 150px;
+    display: flex;
+    margin-top: 80px;
+    align-items: center;
+}
+
+#i3 {
+    margin-left: 25px;
+    background-color: rgba(0, 0, 255, 0.696);
+    width: 100px;
+}
+
+#i4 {
+    background-color: rgba(0, 0, 255, 0.696);
+    width: 150px;
+    margin-left: 60px;
+}
+
+#i3:hover, #i4:hover {
+    background-color: red;
+}
+
+
+#space3 {
+    height: 80px;
+}
+
+.footer {
+    margin-top: 30px;
+    font-size: small;
+
+}
+
+.footer2 {
+    display: flex;
+    justify-content: center;
+}
+
+.subfooter {
+    width: 800px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.f1 {
+    font-size: 13px;
+    font-weight: 100;
+}
+
+
+
